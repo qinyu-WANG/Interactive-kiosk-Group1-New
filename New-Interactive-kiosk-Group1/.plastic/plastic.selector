@@ -1,0 +1,4 @@
+repository "New-Interactive-kiosk-Group1@ssl://masonwang02@sh03-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/qwan0075" 
+     
