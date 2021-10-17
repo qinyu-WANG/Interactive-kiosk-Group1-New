@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.manakhovn.figma_to_unity_importer": {
+      "version": "https://github.com/ManakhovN/FigmaToUnityImporter.git?path=/Assets/FigmaImporter",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "2.1.4"
+      },
+      "hash": "1b5236553ce548299f7da5f8ae7c8cea4c95b0a7"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
