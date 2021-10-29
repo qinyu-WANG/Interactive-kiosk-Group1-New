@@ -21,14 +21,12 @@ public class loginWnd : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            anim.SetTrigger("Enter");
-        }
+
     }
 
     public void OnEnterClick()
     {
+        anim.enabled = true;
         anim.SetTrigger("Enter");
         StartCoroutine(CloseLoginWnd());
     }
