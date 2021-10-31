@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ADAutoMove : MonoBehaviour
+public class ADAutoMoveApp : MonoBehaviour
 {
     public int adMoveSpeed;
     // Start is called before the first frame update
@@ -15,10 +15,9 @@ public class ADAutoMove : MonoBehaviour
     void Update()
     {
         transform.position -= new Vector3(Time.deltaTime * adMoveSpeed, 0, 0);
-        if (GetComponent<RectTransform>().anchoredPosition.x < -1244)
+        if (GetComponent<RectTransform>().anchoredPosition.x < -387.5f)
         {
-            Debug.Log(111);
-            GetComponent<RectTransform>().anchoredPosition = new Vector3(2967.5f, 0, 0);
+            GetComponent<RectTransform>().anchoredPosition = new Vector3(775, 0, 0);
         }
     }
 }
